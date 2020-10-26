@@ -9,6 +9,10 @@
   color:black;
   text-decoration: none;
 }
+
+.item__friends {
+  margin-top: 50px;
+}
   
 .item a.active{
   color:hotpink;

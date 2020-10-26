@@ -3,11 +3,14 @@ import MyPosts from './MyPosts/MyPosts';
 import styles from './Profile.module.css';
 import ProfileInfo from './ProfieInfo/ProfileInfo'
 
-const Profile = () => {
-    return <div>
+const Profile = (props) => {
+
+    return (
+    <div>
       <ProfileInfo/>
-      <MyPosts/>
+      <MyPosts postsData={props.state.postsData}/>
   </div>
+  )
 }
 
 export default Profile;
