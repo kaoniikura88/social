@@ -6,6 +6,10 @@
 .dialogItems .dialog {
     padding: 10px;
 }
+.dialogItems .dialog a{
+    text-decoration: none;
+    color: black;
+}
 
 .messages {
     justify-self: center;
@@ -13,4 +17,9 @@
 
 .message {
     padding: 10px;
+}
+
+.textarea {
+    margin-top: 10px;
+    margin-left: 10px;
 }
